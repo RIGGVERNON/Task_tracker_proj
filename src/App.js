@@ -1,11 +1,11 @@
 // App.js (Main component)
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Login from './Login';
-import AdminDashboard from './AdminDashboard';
-import EmployeeList from './EmployeeList';
-import EmployeeProfile from './EmployeeProfile';
-import PendingTasks from './PendingTasks';
+import Login from './component/Login';
+import AdminDashboard from './component/AdminDashboard';
+import EmployeeList from './component/EmployeeList';
+import EmployeeProfile from './component/EmployeeProfile';
+import PendingTasks from './component/PendingTasks';
 
 
 function App() {
