@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import firebase from 'firebase';
+import 'firebase/auth';
 
 function AdminDashboard() {
   const [activeEmployees, setActiveEmployees] = useState([]);
