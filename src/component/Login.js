@@ -88,3 +88,5 @@ function Signup() {
     </div>
   );
 }
+
+export default Login;
