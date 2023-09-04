@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import firebase from 'firebase';
+import 'firebase/auth';
 
 function Login() {
   const [email, setEmail] = useState('');
