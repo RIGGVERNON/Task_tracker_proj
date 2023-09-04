@@ -1,6 +1,7 @@
 // App.js (Main component)
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import Login from './component/Login';
 import AdminDashboard from './component/AdminDashboard';
 import EmployeeList from './component/EmployeeList';
